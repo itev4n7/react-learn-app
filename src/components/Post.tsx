@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Post.module.css";
+import { PostType } from "../types";
 
 function Post({ id, author, body }: PostType) {
   return (
